@@ -1,0 +1,75 @@
+.icon-white{
+fill: white;
+}
+
+.body--bg{
+    background-color: $primary-dark;
+    padding-bottom: 15rem;
+}
+
+.pink--bg{
+    background: $secondary;
+}
+
+.bold1{
+    font-weight: 450;
+}
+.small-padding--all{
+    padding: 1rem;
+}
+
+.contain{
+    margin: 0 auto;
+    // width: 45%;
+}
+
+.footer-contain{
+    margin: 0 auto;
+}
+
+.--no-border{
+    border-style: none;
+}
+.contain-welcome{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 0;
+  }
+
+  .link-col{
+      color:$link-color;
+  }
+
+  .black-col{
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    .contain-welcome {
+        font-size: 2rem;
+     
+      } 
+      .contain{
+        width: 83%;
+    }
+    .footer-contain{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px) {
+      .contain{
+        width: 85%;
+    }
+    .footer-contain{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .contain{
+      width: 53%;
+  }
+  .footer-contain{
+    width: 53%;
+}
+}
+

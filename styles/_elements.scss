@@ -1,0 +1,33 @@
+i{
+ font-size: 1.2rem;
+ color: white;
+
+}
+
+button{
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+h1{
+    font-weight: bolder;
+    margin-bottom: 1rem;  
+    font-size: 2rem;
+}
+
+p{
+    font-weight: 440;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+a, a:hover{
+    color: $link-color;
+}
+
+img{
+    display: inline-block;
+    justify-content: space-around;
+    
+}
